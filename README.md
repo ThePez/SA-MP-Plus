@@ -17,7 +17,7 @@ sampctl package install ThePez/SA-MP-Plus
 Include in your code and begin using the library:
 
 ```pawn
-#include <SA-MP-Plus>
+#include <sampp>
 ```
 
 Download
