@@ -1,0 +1,23 @@
+{
+	"user": "ThePez",
+	"repo": "SA-MP-Plus",
+	"resources": [
+		{
+			"name": "sampp-(.*)\\.zip",
+			"platform": "windows",
+			"archive": true,
+			"includes": ["pawno/include"],
+			"plugins": ["plugins/sampp_server.dll"]
+		},
+		{
+			"name": "sampp-(.*)\\.tar\\.gz",
+			"platform": "linux",
+			"archive": true,
+			"includes": ["pawno/include"],
+			"plugins": ["plugins/sampp_server.so"]
+		}
+	],
+	"runtime": {
+        "plugins": ["ThePez/SA-MP-Plus"]
+    }
+}

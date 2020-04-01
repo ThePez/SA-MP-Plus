@@ -1,7 +1,24 @@
 SA-MP+
+
+[![sampctl](https://img.shields.io/badge/sampctl-SA--MP--Plus-2f2f2f.svg?style=for-the-badge)](https://github.com/ThePez/SA-MP-Plus)
+
 ==========
 
 A client modification that uses SA-MP's plugin SDK to interact with the server and add new features
+
+Installation
+---------
+Simply install to your project:
+
+```bash
+sampctl package install ThePez/SA-MP-Plus
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <SA-MP-Plus>
+```
 
 Download
 ---------
